@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAED</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- header -->
+    <header>
+        <div class="container">
+            <div class="row"></div>
+            <div class="heading">
+                <h1 class="heading-primary title">STUDIO 3.6</h1>
+                <h2 class="heading-secundary">Making Dreams in reality</h2>
+            </div>
+
+        </div>
+    </header>
+<!-- /header -->
+
+<!-- main -->
+    <main>
+
+        <!-- PROJECTS 1 -->
+        <div class="primary-container">
+            <h1>BIG PROJECTS</h1>
+            <div class="main-container">
+                <h2>BEIRA AIRPORT</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla quam veniam aliquid vel ipsam eligendi corrupti impedit! Consequatur placeat porro tempore consequuntur assumenda ipsam tempora deleniti neque adipisci quidem!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae et quidem laborum eos animi eligendi hic doloribus, odio nihil? Fuga nam quo, in quasi illo sint optio ab quisquam ratione!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis totam officia quam laudantium
+                    suscipit porro quos repellendus harum accusantium veniam amet labore ducimus provident    
+                </p>
+            </div>
+    
+            <section class="main-projects">
+                    <img src="img/01_Photo - 1.jpg" alt="beira airport">
+                    <img src="img/01_Photo - 10.jpg" alt="beira airport">
+                    <img src="img/01_Photo - 4.jpg" alt="beira airport">
+            </section>
+        </div>
+        
+        <div class="secundary-container">
+            <div class="text-desc">
+                <h2>WEB DEVELOPER</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur enim praesentium optio quod quisquam quia beatae fuga exercitationem 
+                    tenetur. Reprehenderit molestias magnam commodi tenetur dicta ut ab officiis? Et, itaque?
+                    molestiae eveniet, animi, natus, doloribus cumque.
+                </p>
+            </div>
+            <section class="projects">
+                <div class="row">
+                    <div class="column">
+                        <img src="img/Capture.PNG" alt="Anuncios" style="width:100%">
+                        <a href="#"><h2>Anuncios</h2></a>
+                    </div>
+
+                    <div class="column">
+                        <img src="img/Capture2.PNG"  alt="Solve" style="width:100%">
+                        <a href="#"><h2>Solve</h2></a>
+                    </div>
+
+                    <div class="column">
+                        <img src="img/Capture2.PNG"  alt="Babucho Hair" style="width:100%">
+                        <a href="#"><h2>Babucho Hair</h2></a>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+
+        <div class="third-container">
+            <h2>DESIGN</h2>
+            <div class="design--text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, a enim! Doloribus quasi velit minus ex vero vel, recusandae saepe corrupti in repellat enim rem quisquam amet voluptas perferendis quam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero sit fugit autem eius aperiam atque obcaecati pariatur molestiae molestias. Facere, facilis vero incidunt nesciunt neque aperiam ex consequatur sapiente.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem consequuntur inventore dolore quaerat cum quos, commodi atque fugit quas voluptatem sed enim.
+            </div>
+            <div class="design--img">
+                
+                <div class="container-slide">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
+                  
+                <div class="row">
+                    <div class="column">
+                        <img src="img/190501-green-sea-turtle-mn-.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/5660743130_77709851ba_o-1-1260x708.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/anicent-woodland-coed-nant-gwernol-and-coed-hendrewallog-14-jordan-mansfield.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                      <img src="img/Opener-Unusual-Camping.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                  </div>
+                  
+            <script>
+                function myFunction(imgs) {
+                    var expandImg = document.getElementById("expandedImg");
+                    var imgText = document.getElementById("imgtext");
+                    expandImg.src = imgs.src;
+                    imgText.innerHTML = imgs.alt;
+                    expandImg.parentElement.style.display = "block";
+                }
+            </script>
+    
+            </div>
+
+        </div>
+
+        <div class="fourth-container">
+            <h2 class="serv">SERVICES</h2>
+        </div>
+
+        <!-- /PROJECTS 1 -->
+
+        <div class="log">
+            <div class="form-group">
+                <h2>CREATE NEW ACCOUNT</h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Enter First Name">
+                    <input type="text" name="" id="" placeholder="Enter Last Name">
+                    <input type="text" name="" id="" placeholder="Enter Email">
+                    <input type="text" name="" id="" placeholder="Enter Username">
+                    <input type="password" name="" id="" placeholder="Enter Password">
+                    <input type="submit">
+                </form>
+            </div>
+
+        </div>
+    </main>
+<!-- /main -->
+
+<!-- footer -->
+    <footer>
+        <h1>footer</h1>
+        <div class="footer-container"></div>
+    </footer>
+    <center>
+        <p class="copyright">Copyright by <i><b><span class="brand">Studio 3.6</span></b></i>. All rights reserved</p>
+    </center>
+<!-- /footer -->
+
+</body>
+</html>
